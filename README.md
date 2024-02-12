@@ -21,10 +21,10 @@ Please use the corresponding Jupyter Notebooks for each step below.
 
 Step 1: Generate the images and ground truth labels using `create_the_synthetic_dataset.ipynb`
 
-Step 2 - Train the probes using `run_probing_experiments.ipynb`
+Step 2: Train the probes using `run_probing_experiments.ipynb`
 - Or skip this step by using the pre-trained probe weights described in the section above.
 
-Step 3 - Output the intermediate images for each model and create the comparison plots using this build script: `python create_plot.py --probe ind {probe index}`
+Step 3: Output the intermediate images for each model and create the comparison plots using this build script: `python create_plot.py --probe ind {probe index}`
  
 
 ## Citation
